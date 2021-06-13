@@ -59,8 +59,6 @@ on early-boot
     write /dev/ipa 1
 
 on late-fs
-    wait_for_prop hwservicemanager.ready true
-    exec_start wait_for_keymaster
     mount_all --late
 
 service sec_nvm /vendor/bin/sec_nvm
