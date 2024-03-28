@@ -496,7 +496,7 @@ vendor/etc/charger_fstab.qti
 vendor/etc/chg-pwr-service.cfg
 
 # CNE
-vendor/app/CneApp/CneApp.apk
+vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_vendor_symlink
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
