@@ -71,7 +71,6 @@ sys.qca1530=detect
 
 # Radio
 DEVICE_PROVISIONED=1
-rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ril.subscription.types=NV,RUIM
 ro.vendor.use_data_netmgrd=true
 persist.data.df.agg.dl_pkt=10
